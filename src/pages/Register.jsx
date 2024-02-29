@@ -88,6 +88,7 @@ const Register = () => {
   console.log(username);
   return (
     <div>
+    
       <ToastContainer />
       <h1>Register Page</h1>
       {/* Form */}

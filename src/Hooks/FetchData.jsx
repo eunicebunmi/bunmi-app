@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Loader from "../components/Loader";
 
+
 const FetchData = () => {
   // hooks
   const [blogs, setBlogs] = useState([]);
@@ -50,12 +51,14 @@ const FetchData = () => {
   // console.log(blogs);
   return (
     <div>
+       
       <h1>Fetch data component</h1>
 
       {loading ? (
         <Loader/>
       ) : (
         <>
+    
           <div className="row d-flex gap-3  justify-content-center">
             {blogs.map((blog) => {
               return (

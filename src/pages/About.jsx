@@ -1,8 +1,7 @@
 import Hero from "../components/Hero"
 import Spimmer from "../components/Loader"
-import Bolt from "../components/Nav"
+// import Bolt from "../components/Nav"
 import img2 from "../assets/images/Women Ombre Summer Elegant No Elasticity Long sleeve Crew Neck Regular A-Line Ultra lightweight Shirts.jpeg"
-
 function About() {
     // jsx (javascript)
     const myJsx = <h3>This is awesome JSX</h3>
@@ -15,7 +14,7 @@ function About() {
   const food = ["amala", "tuwo", "jollof", "spaghetti"]
     return (
       <>
-      <Bolt/>
+      {/* <Bolt/> */}
       <Spimmer/>
       <Hero heading= " Welcome to About page" image={img2}/>
         <div>

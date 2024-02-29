@@ -10,14 +10,14 @@ import Products from "./Products"
 function Home(){
     return ( 
     <>
-    <Bolt/>
+    {/* <Bolt/> */}
     {/* <Spimmer/> */}
     <Hero heading= "Welcome to Home page" image={img3} />
     {/* <ProductCard/> */}
     {/* <Products/> */}
     {/* <h1 className="bg-danger text-light">Welcome to homepage</h1> */}
     <div className="">
-        <img src={img1} alt="" width={450} height={450}/>
+        <img src={img1} alt="" width={250} height={250}/>
     </div>
     </>
     )

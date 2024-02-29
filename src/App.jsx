@@ -10,6 +10,7 @@ import Register from './pages/Register'
 import PageNotFound from './pages/404Page'
 import Loader from './components/Loader'
 import Blogs from "./Hooks/FetchData"
+import Bolt from './components/Nav'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
 
      {/* {routing pages} */}
      <BrowserRouter>
-     {/* <Bolt/> */}
+     <Bolt/>
       <Routes>
        <Route path="/" element = {<Home/>}/>
        <Route path="/about" element = {<About/>}/>
@@ -31,6 +32,7 @@ function App() {
         <Route path='/register' element={<Register/>}/>
         <Route path='/*' element={<PageNotFound/>}/>
         <Route path = '/Loader' element={<Loader/>}/>
+
       </Routes>
     </BrowserRouter>
     </>
