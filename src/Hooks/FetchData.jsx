@@ -66,8 +66,9 @@ const FetchData = () => {
                   className="col-12 col-md-4 col-lg-3 rounded"
                   style={{
                     height: "400px",
-                    backgroundColor: "#eee",
+                    backgroundColor: "yellow",
                     padding: "5px",
+                    color: "black"
                   }}
                   key={blog._id}
                 >

@@ -11,10 +11,14 @@ import PageNotFound from './pages/404Page'
 import Loader from './components/Loader'
 import Blogs from "./Hooks/FetchData"
 import Bolt from './components/Nav'
+import { useContext } from 'react';
+import { PageTheme } from './context/ThemeContext'
 
 function App() {
+  const {theme} = useContext(PageTheme);
+  console.log(theme);
   return (
-    <>
+    <div className={`bg-${theme} ${theme === "dark" ? "text-light": "text-dark"}`}>
     {/* <Home/> */}
     {/* <About/> */}
 
@@ -35,7 +39,7 @@ function App() {
 
       </Routes>
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 

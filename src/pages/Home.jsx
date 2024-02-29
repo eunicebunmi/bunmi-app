@@ -1,6 +1,6 @@
 import img1 from "../assets/images/download.jpeg"
 // import Spimmer from "../components/Loader"
-import Bolt from "../components/Nav"
+// import Bolt from "../components/Nav"
 import Hero from "../components/Hero"
 import "../css/Home.css"
 import "../css/About.css"
